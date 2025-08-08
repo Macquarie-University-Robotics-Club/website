@@ -107,8 +107,16 @@ footer {
     flex-direction: row;
 }
 
+@media screen and (max-width: 400px){
+   .instagram a {
+      flex-direction: column;
+   }
+}
+
 .instagram img {
     width: 40%;
+    max-width: 40%;
+    min-width: 30%;
 }
 
 iframe {
